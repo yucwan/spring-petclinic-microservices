@@ -49,6 +49,12 @@
         </dependency>
 
         <!-- Spring Cloud -->
+        <!-- Unecessary for Azure Spring Cloud with App Insight IPA 3.0 enabled
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-sleuth-zipkin</artifactId>
+        </dependency>
+        -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-circuitbreaker-reactor-resilience4j</artifactId>
@@ -79,6 +85,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!-- Unecessary for Azure Spring Cloud with App Insight IPA 3.0 enabled
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-sleuth</artifactId>
+        </dependency>
+        -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-gateway</artifactId>
